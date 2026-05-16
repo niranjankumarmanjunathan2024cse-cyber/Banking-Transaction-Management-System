@@ -1,0 +1,42 @@
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+text { font-family: Arial; }
+</style>
+
+<line x1="120" y1="100" x2="120" y2="520" stroke="black" stroke-dasharray="5,5"/>
+<line x1="350" y1="100" x2="350" y2="520" stroke="black" stroke-dasharray="5,5"/>
+<line x1="620" y1="100" x2="620" y2="520" stroke="black" stroke-dasharray="5,5"/>
+<line x1="870" y1="100" x2="870" y2="520" stroke="black" stroke-dasharray="5,5"/>
+
+<rect x="50" y="50" width="140" height="40" fill="white" stroke="black" stroke-width="2"/>
+<text x="85" y="75" font-size="18" font-weight="bold">Bank Admin</text>
+
+<rect x="250" y="50" width="200" height="40" fill="white" stroke="black" stroke-width="2"/>
+<text x="280" y="75" font-size="18" font-weight="bold">Batch Upload Page</text>
+
+<rect x="540" y="50" width="160" height="40" fill="white" stroke="black" stroke-width="2"/>
+<text x="580" y="75" font-size="18" font-weight="bold">Database</text>
+
+<rect x="760" y="50" width="220" height="40" fill="white" stroke="black" stroke-width="2"/>
+<text x="790" y="75" font-size="18" font-weight="bold">Transaction Module</text>
+
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto">
+<path d="M0,0 L0,6 L9,3 z" fill="black"/>
+</marker>
+</defs>
+
+<line x1="120" y1="150" x2="350" y2="150" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="150" y="140" font-size="16">Upload Batch File</text>
+
+<line x1="350" y1="250" x2="620" y2="250" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="420" y="240" font-size="16">Store Transactions</text>
+
+<line x1="620" y1="350" x2="870" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="690" y="340" font-size="16">Process Transactions</text>
+
+<line x1="870" y1="450" x2="120" y2="450" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="420" y="440" font-size="16">Display Success Message</text>
+
+</svg>
